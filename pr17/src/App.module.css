@@ -1,0 +1,7 @@
+.main {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    background: linear-gradient(35deg, rgba(36, 170, 148, 1) 0%, rgba(166, 44, 247, 1) 100%);
+}

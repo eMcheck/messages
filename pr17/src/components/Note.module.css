@@ -1,0 +1,137 @@
+.container {
+    padding: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    color: black;
+}
+
+.form {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+
+.lbl {
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.inp {
+    width: 100%;
+    height: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn_form {
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.note_wrapp {
+    margin: 50px 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+
+.note_wrapp h3 {
+    margin-bottom: 25px;
+}
+
+.note_wrapp p {
+    margin-bottom: 25px;
+}
+
+
+.btn_note {
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.note_error {
+    margin: 50px 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.note_error h3 {
+    margin: 20px auto;
+
+}
+
+
+.btn_error {
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+
+@media (max-width: 540px) {
+    .form {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .note_wrapp {
+        margin: 10px 15px;
+        padding-bottom: 150px;
+        font-size: 1rem;
+    }
+
+
+    .note_wrapp h3 {
+        margin-bottom: 25px;
+    }
+
+    .note_wrapp p {
+        margin-bottom: 25px;
+    }
+
+
+}

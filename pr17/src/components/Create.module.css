@@ -1,0 +1,105 @@
+.container {
+    max-width: 800px;
+    padding: 25px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.form {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.lbl {
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.txar {
+    width: 100%;
+    height: 200px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn_form {
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.btn_wrap {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.btn_out {
+    height: 45px;
+    padding: 0 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.out {
+    padding-top: 150px;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 540px) {
+
+    .out {
+        padding-top: 100px;
+
+    }
+
+    .form {
+        margin: 20px;
+        font-size: 1.5rem;
+    }
+
+    .btn_wrap {
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .btn_out {
+        margin-top: 30px;
+    }
+
+    .url {
+        font-size: 1.2rem;
+    }
+
+}

@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    left: 300px;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*1200px
+992px
+768px
+480px
+320px*/
+
+
+@media (max-width: 1200px) {
+    .container {
+        left: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        left: 120px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        left: 70px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        left: 30px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        left: 5px;
+    }
+}
